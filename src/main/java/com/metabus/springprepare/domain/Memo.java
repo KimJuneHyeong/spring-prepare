@@ -1,0 +1,14 @@
+package com.metabus.springprepare.domain;
+
+
+import lombok.Getter;
+
+@Getter
+//@Setter
+public class Memo {
+    private String username;
+    private String content;
+    private String description;
+    private String password;
+
+}
